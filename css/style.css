@@ -1,0 +1,361 @@
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+body {
+  font-family: cursive, "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* MENU ______________________________________________________________________ */
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul {
+  list-style-type: none;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(228, 74, 13);
+  background-color: rgb(146, 241, 102);
+  margin: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+nav ul li a:hover {
+  color: rgb(146, 241, 102);
+  background-color: rgb(228, 74, 13);
+}
+
+/* CREATED BY ____________________________________________________*/
+
+.fixed {
+  text-decoration: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  color: rgb(32, 27, 27);
+  border: 3px solid #f3f5f0;
+}
+/* HOME ____________________________________________________________________________*/
+.pfeil {
+  padding: 10px 10px;
+  margin: 10px;
+}
+
+#pfeil-2 {
+  width: 90px;
+  height: 40px;
+  background-color: transparent;
+}
+
+.class-1 {
+  display: flex;
+
+  justify-content: center;
+
+  text-decoration: none;
+  align-items: center;
+}
+
+.class-2 {
+  display: flex;
+
+ 
+  text-decoration: none;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 10px;
+
+  color: rgb(228, 74, 13);
+  background-color: rgb(146, 241, 102);
+  box-shadow: 5px 10px rgb(248, 240, 240);
+  border-radius: 15px;
+  justify-content: center;
+}
+
+.class-2:hover {
+  color: rgb(146, 241, 102);
+  background-color: rgb(228, 74, 13);
+}
+
+.class-3 {
+  display: flex;
+  float: right;
+  box-shadow: 5px 10px;
+  text-decoration: none;
+  text-align: center;
+  padding: 40px 20px;
+  margin: 10px;
+  box-shadow: 5px 10px rgb(248, 240, 240);
+  color: rgb(228, 74, 13);
+  background-color: rgb(146, 241, 102);
+
+  border-radius: 10px;
+}
+
+.class-3:hover {
+  color: rgb(146, 241, 102);
+  background-color: rgb(228, 74, 13);
+}
+
+.class-4 {
+  display: flex;
+  justify-content: space-around;
+}
+
+.class-5 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* SKILLS
+____________________________________________________ */
+
+table {
+  display: flex;
+  justify-content: space-around;
+}
+
+th {
+  color: rgb(228, 74, 13);
+  background-color: rgb(146, 241, 102);
+  font-size: 20px;
+}
+
+td {
+  text-align: center;
+}
+
+td a {
+  display: flex;
+  justify-content: center;
+  border: rgb(248, 242, 242) 2px solid;
+  text-decoration: none;
+  color: rgb(228, 74, 13);
+
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+td a:hover {
+  color: rgb(146, 241, 102);
+  background-color: rgb(228, 74, 13);
+}
+
+td img {
+  width: 50px;
+  height: 50px;
+  background-color: aliceblue;
+}
+
+td img:hover {
+  width: 55px;
+  height: 55px;
+  background-color: aliceblue;
+}
+
+.progress-bar1 {
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 10px;
+  padding: 5px;
+  background-color: #ccc;
+  display: flex;
+}
+
+.progress-bar1:before {
+  border-radius: 10px;
+  content: "90%";
+  width: 90%;
+  background-color: red;
+}
+
+.progress-bar2 {
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 10px;
+  padding: 5px;
+  background-color: #ccc;
+  display: flex;
+}
+
+.progress-bar2:before {
+  content: "80%";
+  width: 80%;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.progress-bar3 {
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 10px;
+  padding: 5px;
+  background-color: #ccc;
+  display: flex;
+}
+
+.progress-bar3:before {
+  content: "10%";
+  width: 10%;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.progress-bar4 {
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 10px;
+  padding: 5px;
+  background-color: #ccc;
+  display: flex;
+}
+
+.progress-bar4:before {
+  content: "60%";
+  width: 60%;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.progress-bar5 {
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 10px;
+  padding: 5px;
+  background-color: #ccc;
+  display: flex;
+}
+
+.progress-bar5:before {
+  content: "70%";
+  width: 70%;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.progress-bar6 {
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 10px;
+  padding: 5px;
+  background-color: #ccc;
+  display: flex;
+}
+
+.progress-bar6:before {
+  content: "95%";
+  width: 95%;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.progress-bar7 {
+  border-radius: 10px;
+  margin-top: 20px;
+  height: 10px;
+  padding: 5px;
+  background-color: #ccc;
+  display: flex;
+}
+
+.progress-bar7:before {
+  content: "100% Google junior marketing";
+  width: 100%;
+  background-color: red;
+  border-radius: 10px;
+}
+
+/* ABOUT ______________________________________________________________________________- */
+
+p {
+  margin: 5px;
+}
+
+p a {
+  display: flex;
+  background-color: rgba(234, 235, 234, 0.863);
+}
+
+p img {
+  width: 10px;
+  display: flex;
+  background-color: rgba(234, 235, 234, 0.863);
+}
+
+.about {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#about {
+  margin-left: 20%;
+}
+
+#vorstellung {
+  background-color: rgb(150, 236, 150);
+  border-radius: 50px 500px 5px 500px;
+}
+
+.datum {
+  display: flex;
+  font-size: 12px;
+  width: 110px;
+  height: 20px;
+}
+
+.title-cv {
+  font-size: 25px;
+
+  width: 290px;
+  height: 70px;
+}
+
+.text-cv {
+  margin-top: 12px;
+  font-size: 12px;
+  width: 70%;
+  height: 50px;
+  word-wrap: break-word;
+}
+
+.th-table-cv {
+  background-color: transparent;
+}
+
+#table-cv {
+  width: 600px;
+}
+
+#bild-cv {
+  width: 100px;
+  background-color: transparent;
+  border-radius: 50px;
+}
+
+/* Kontakt ___________________________________________________________*/
+
+#kontakt {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.class-img {
+  display: flex;
+  width: 200px;
+}
